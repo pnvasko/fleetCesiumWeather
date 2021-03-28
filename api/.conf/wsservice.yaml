@@ -1,0 +1,20 @@
+Name: 'Ws Service'
+Debug: true
+LogPath:
+WorkerPoolSize: 1000
+HttpConfig:
+  Domain: '127.0.0.1'
+  Port: 9443
+  StaticPath: '/src/static'
+  WsAllowOriginHost: 'test.us'
+  Sslcert: 'fullchain3.pem'
+  Sslkey: 'privkey3.pem'
+Db:
+  Name: 'Swim'
+  Adapter: 'postgres'
+  Host: '127.0.0.1'
+  Port: 5432
+  Database: 'swim_v_01'
+  User: ''
+  Password: ''
+  MaxConnections: 5

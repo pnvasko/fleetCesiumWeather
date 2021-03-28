@@ -1,0 +1,8 @@
+{
+  "name": "twas",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue",
+  "id": "01d748f5"
+}

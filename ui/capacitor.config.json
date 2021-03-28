@@ -1,0 +1,14 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "twas",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "public",
+  "XwebDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
